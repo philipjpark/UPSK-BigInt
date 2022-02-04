@@ -31,8 +31,8 @@ public class Main {
     public static BigInteger getBigInt() {
         Random rand = new Random();
         
-        BigInteger result =  new BigInteger(4,rand);
-     result =  result.pow(2000);
+        BigInteger result =  new BigInteger(5,rand);
+     result =  result.pow(100);
         return result;
     }
     
