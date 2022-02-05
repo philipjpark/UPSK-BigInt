@@ -14,10 +14,8 @@ public class Main {
    
    
         BigInteger hugeNum = getBigInt();
-   String stringTheBig=hugeNum.toString();
+   String stringTheBig = hugeNum.toString();
    
-       
-        
         PrintWriter detail = null;
         try {
            detail = new PrintWriter(stringTheBig);
@@ -25,7 +23,7 @@ public class Main {
             e.printStackTrace();
         }
      detail.close();
- System.out.println(hugeNum);
+ System.out.println(stringTheBig);
     }
     
     public static BigInteger getBigInt() {
