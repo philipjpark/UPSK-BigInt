@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
    
    
-        BigInteger hugeNum = getBigInt();
+    BigInteger hugeNum = getBigInt();
    String stringTheBig = hugeNum.toString();
    
         PrintWriter detail = null;
@@ -29,8 +29,8 @@ public class Main {
     public static BigInteger getBigInt() {
         Random rand = new Random();
         
-        BigInteger result =  new BigInteger(5,rand);
-     result =  result.pow(100);
+        BigInteger result =  new BigInteger(7,rand);
+     result =  result.pow(200);
         return result;
     }
     
